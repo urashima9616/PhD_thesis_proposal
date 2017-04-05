@@ -1,17 +1,18 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/xueyuankun/Downloads/usc-thesis-latex-master/.texpadtmp/main.aux
+The top-level auxiliary file: /Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.aux
+A level-1 auxiliary file: Introduction.aux
 The style file: ../namedplus.bst
 I couldn't open database file references.bib
----line 31 of file /Users/xueyuankun/Downloads/usc-thesis-latex-master/.texpadtmp/main.aux
+---line 27 of file /Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.aux
  : \bibdata{references
  :                    }
 I'm skipping whatever remains of this command
-I found no \citation commands---while reading file /Users/xueyuankun/Downloads/usc-thesis-latex-master/.texpadtmp/main.aux
-I found no database files---while reading file /Users/xueyuankun/Downloads/usc-thesis-latex-master/.texpadtmp/main.aux
+I found no \citation commands---while reading file /Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.aux
+I found no database files---while reading file /Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.aux
 You've used 0 entries,
             2619 wiz_defined-function locations,
-            574 strings with 4875 characters,
+            575 strings with 4941 characters,
 and the built_in function-call counts, 22 in all, are:
 = -- 0
 > -- 0

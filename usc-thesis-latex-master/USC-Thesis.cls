@@ -163,7 +163,7 @@
        \par}
       \vskip 1.0 true in
 
-      A Dissertation Presented to the     \\
+      A Dissertation Proposal Presented to the     \\
       FACULTY OF THE USC GRADUATE SCHOOL      \\
       UNIVERSITY OF SOUTHERN CALIFORNIA   \\
       In Partial Fulfillment of the       \\
