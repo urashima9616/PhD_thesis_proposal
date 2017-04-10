@@ -122,9 +122,9 @@
 
 
 %% Define text area size for USC thesis
-\setlength{\oddsidemargin}{0.6in}   % really 1.6in
-\setlength{\evensidemargin}{0.6in}  % really 1.6in
-\setlength{\textwidth}{5.8in}
+\setlength{\oddsidemargin}{0.2in}   % really 1.6in
+\setlength{\evensidemargin}{0.2in}  % really 1.6in
+\setlength{\textwidth}{6.2in}
 \setlength{\topmargin}{0.1in}       % really 1.1in 
 \setlength{\headheight}{0.in}       % was 0.2in
 \setlength{\headsep}{0.in}          % was 0.2in

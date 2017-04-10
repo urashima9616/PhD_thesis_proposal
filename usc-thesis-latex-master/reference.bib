@@ -1,0 +1,1799 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+% --------------------------------------
+% 			section Introduction
+% --------------------------------------
+%Smart cities
+@article{zanella2014internet,
+  title={Internet of things for smart cities},
+  author={Zanella, Andrea and Bui, Nicola and Castellani, Angelo and Vangelista, Lorenzo and Zorzi, Michele},
+  journal={Internet of Things Journal, IEEE},
+  volume={1},
+  number={1},
+  pages={22--32},
+  year={2014},
+  publisher={IEEE}
+}
+%Vision
+@article{stankovic2014research,
+  title={Research directions for the internet of things},
+  author={Stankovic, John A},
+  journal={Internet of Things Journal, IEEE},
+  volume={1},
+  number={1},
+  pages={3--9},
+  year={2014},
+  publisher={IEEE}
+}
+%Correlation
+@article{brunekreef2009effects,
+  title={Effects of long-term exposure to traffic-related air pollution on respiratory and cardiovascular mortality in the Netherlands: the NLCS-AIR study.},
+  author={Brunekreef, Bert and Beelen, RMJ and Hoek, Gerard and Schouten, LJ and Bausch-Goldbohm, Sandra and Fischer, Paul and Armstrong, Ben and Hughes, Edward and Jerrett, Michael and others},
+  journal={Research report (Health Effects Institute)},
+  number={139},
+  pages={5--71},
+  year={2009}
+}
+@article{lanki2015air,
+  title={Air Pollution from Road Traffic and Systemic Inflammation in Adults: A Cross-Sectional Analysis in the European ESCAPE Project.},
+  author={Lanki, Timo and Hampel, Regina and Tiittanen, Pekka and Andrich, Silke and Beelen, Rob and Brunekreef, Bert and Dratva, Julia and De Faire, Ulf and Fuks, Kateryna B and Hoffmann, Barbara and others},
+  journal={Environmental health perspectives},
+  volume={123},
+  number={8},
+  pages={785--791},
+  year={2015},
+  publisher={National Institute of Environmental Health Science}
+}
+
+%Entries
+% --------------------------------------
+% 			section efficient sensing
+% --------------------------------------
+%Submodular maximization
+@article{krause2012near_opt,
+  title={Near-optimal nonmyopic value of information in graphical models},
+  author={Krause, Andreas and Guestrin, Carlos E},
+  journal={arXiv preprint arXiv:1207.1394},
+  year={2012}
+}
+@article{kuo2015maximizing_connectivtiy,
+  title={Maximizing submodular set function with connectivity constraint: Theory and application to networks},
+  author={Kuo, Tung-Wei and Lin, Kate Ching-Ju and Tsai, Ming-Jer},
+  journal={IEEE/ACM Transactions on Networking (TON)},
+  volume={23},
+  number={2},
+  pages={533--546},
+  year={2015},
+  publisher={IEEE Press}
+}
+@inproceedings{pequito2014minimum,
+  title={Minimum number of information gatherers to ensure full observability of a dynamic social network: A structural systems approach},
+  author={Pequito, Sergio and Kar, Soummya and Aguiar, A Pedro},
+  booktitle={Signal and Information Processing (GlobalSIP), 2014 IEEE Global Conference on},
+  pages={750--753},
+  year={2014},
+  organization={IEEE}
+}
+
+@article{liu2015minimum,
+  title={Minimum Sensor Placement for Robust Observability of Structured Complex Networks},
+  author={Liu, Xiaofei and Pequito, Sergio and Kar, Soummya and Sinopoli, Bruno and Aguiar, A Pedro},
+  journal={arXiv preprint arXiv:1507.07205},
+  year={2015}
+}
+
+@article{olshevsky2014minimal,
+  title={Minimal controllability problems},
+  author={Olshevsky, Alex},
+  journal={Control of Network Systems, IEEE Transactions on},
+  volume={1},
+  number={3},
+  pages={249--258},
+  year={2014},
+  publisher={IEEE}
+}
+
+@article{kalman1963mathematical,
+  title={Mathematical description of linear dynamical systems},
+  author={Kalman, Rudolf Emil},
+  journal={Journal of the Society for Industrial and Applied Mathematics, Series A: Control},
+  volume={1},
+  number={2},
+  pages={152--192},
+  year={1963},
+  publisher={SIAM}
+}
+
+@article{marucci2009turn_17,
+  title={How to turn a genetic circuit into a synthetic tunable oscillator, or a bistable switch},
+  author={Marucci, Lucia and Barton, David AW and Cantone, Irene and Ricci, Maria Aurelia and Cosma, Maria Pia and Santini, Stefania and di Bernardo, Diego and di Bernardo, Mario},
+  journal={PLoS One},
+  volume={4},
+  number={12},
+  pages={e8083},
+  year={2009},
+  publisher={Public Library of Science}
+}
+
+
+@article{liu2013observability_15,
+  title={Observability of complex systems},
+  author={Liu, Yang-Yu and Slotine, Jean-Jacques and Barab{\'a}si, Albert-L{\'a}szl{\'o}},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={110},
+  number={7},
+  pages={2460--2465},
+  year={2013},
+  publisher={National Acad Sciences}
+}
+
+@article{rajapakse2012can_30,
+  title={What can systems theory of networks offer to biology?},
+  author={Rajapakse, Indika and Groudine, Mark and Mesbahi, Mehran},
+  journal={PLoS Comput Biol},
+  volume={8},
+  number={6},
+  pages={e1002543},
+  year={2012},
+  publisher={Public Library of Science}
+}
+
+@book{chakrabortty2012control_6,
+  title={Control and optimization methods for electric smart grids},
+  author={Chakrabortty, Aranya and Ilic, Marija D},
+  year={2012},
+  publisher={Springer}
+}
+
+
+@book{zhu2015optimization_39,
+  title={Optimization of power system operation},
+  author={Zhu, Jizhong},
+  volume={47},
+  year={2015},
+  publisher={John Wiley \& Sons}
+}
+
+@article{liu2013observability_8,
+  title={Observability of complex systems},
+  author={Liu, Yang-Yu and Slotine, Jean-Jacques and Barab{\'a}si, Albert-L{\'a}szl{\'o}},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={110},
+  number={7},
+  pages={2460--2465},
+  year={2013},
+  publisher={National Acad Sciences}
+}
+
+@inproceedings{bogdan2015minimum,
+  title={Minimum number of probes for brain dynamics observability},
+  author={Pequito, Sergio and Bogdan, Paul and Pappas, George J. },
+  booktitle={2015 54th IEEE Conference on Decision and Control (CDC)},
+  pages={306--311},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{Xue2016aller,
+  title={Minimum Number of Sensors to Ensure Observability of Physiological Systems: a Case Study},
+  author={Xue, Yuankun and Pequito, Sergio and Coelho, Joana R. and Bogdan, Paul and Pappas, George J.},
+  booktitle={Communication, Control, and Computing (Allerton), 2016 54nd Annual Allerton Conference on},
+  year={2016},
+  organization={IEEE}
+}
+
+%Entries
+% --------------------------------------
+% 			section decentralized computation
+% --------------------------------------
+@inproceedings{bonomi2012fog,
+  title={Fog computing and its role in the internet of things},
+  author={Bonomi, Flavio and Milito, Rodolfo and Zhu, Jiang and Addepalli, Sateesh},
+  booktitle={Proceedings of the first edition of the MCC workshop on Mobile cloud computing},
+  pages={13--16},
+  year={2012},
+  organization={ACM}
+}
+
+%Can offloading computation saving energy
+@article{kumar2010cloud,
+  title={Cloud computing for mobile users: Can offloading computation save energy?},
+  author={Kumar, Karthik and Lu, Yung-Hsiang},
+  journal={Computer},
+  number={4},
+  pages={51--56},
+  year={2010},
+  publisher={IEEE}
+}
+
+%applications:
+%imaging processing
+@article{zhuang2014efficient,
+  title={Efficient and robust large medical image retrieval in mobile cloud computing environment},
+  author={Zhuang, Yi and Jiang, Nan and Wu, Zhiang and Li, Qing and Chiu, Dickson KW and Hu, Hua},
+  journal={Information Sciences},
+  volume={263},
+  pages={60--86},
+  year={2014},
+  publisher={Elsevier}
+}
+@article{canepa2010virtual,
+  title={A virtual cloud computing provider for mobile devices},
+  author={Canepa, HG and Lee, D},
+  year={2010},
+  publisher={ACM}
+}
+@inproceedings{nimmagadda2009energy,
+  title={Energy-efficient image compression in mobile devices for wireless transmission},
+  author={Nimmagadda, Yamini and Kumar, Karthik and Lu, Yung-Hsiang},
+  booktitle={Multimedia and Expo, 2009. ICME 2009. IEEE International Conference on},
+  pages={1278--1281},
+  year={2009},
+  organization={IEEE}
+}
+
+%Location-based service
+@inproceedings{vallina2011erdos,
+  title={ErdOS: achieving energy savings in mobile OS},
+  author={Vallina-Rodriguez, Narseo and Crowcroft, Jon},
+  booktitle={Proceedings of the sixth international workshop on MobiArch},
+  pages={37--42},
+  year={2011},
+  organization={ACM}
+}@article{li2015cooperative,
+  title={Cooperative Positioning and Tracking in Disruption Tolerant Networks},
+  author={Li, Wenzhong and Hu, Yuefei and Fu, Xiaoming and Lu, Sanglu and Chen, Daoxu},
+  journal={Parallel and Distributed Systems, IEEE Transactions on},
+  volume={26},
+  number={2},
+  pages={382--391},
+  year={2015},
+  publisher={IEEE}
+}
+
+%data streaming application
+@article{yang2013framework,
+  title={A framework for partitioning and execution of data stream applications in mobile cloud computing},
+  author={Yang, Lei and Cao, Jiannong and Yuan, Yin and Li, Tao and Han, Andy and Chan, Alvin},
+  journal={ACM SIGMETRICS Performance Evaluation Review},
+  volume={40},
+  number={4},
+  pages={23--32},
+  year={2013},
+  publisher={ACM}
+}
+
+%collective sensing
+@incollection{cheng2010sensorchestra,
+  title={SensOrchestra: Collaborative sensing for symbolic location recognition},
+  author={Cheng, Heng-Tze and Sun, Feng-Tso and Buthpitiya, Senaka and Griss, Martin},
+  booktitle={Mobile computing, applications, and services},
+  pages={195--210},
+  year={2010},
+  publisher={Springer}
+}
+
+@inproceedings{thiagarajan2009vtrack,
+  title={VTrack: accurate, energy-aware road traffic delay estimation using mobile phones},
+  author={Thiagarajan, Arvind and Ravindranath, Lenin and LaCurts, Katrina and Madden, Samuel and Balakrishnan, Hari and Toledo, Sivan and Eriksson, Jakob},
+  booktitle={Proceedings of the 7th ACM Conference on Embedded Networked Sensor Systems},
+  pages={85--98},
+  year={2009},
+  organization={ACM}
+}
+
+@inproceedings{herring2010using,
+  title={Using mobile phones to forecast arterial traffic through statistical learning},
+  author={Herring, Ryan and Hofleitner, Aude and Amin, Saurabh and Nasr, T and Khalek, A and Abbeel, Pieter and Bayen, Alexandre},
+  booktitle={89th Transportation Research Board Annual Meeting, Washington DC},
+  year={2010},
+  organization={Citeseer}
+}
+@article{lane2010survey,
+  title={A survey of mobile phone sensing},
+  author={Lane, Nicholas D and Miluzzo, Emiliano and Lu, Hong and Peebles, Daniel and Choudhury, Tanzeem and Campbell, Andrew T},
+  journal={Communications Magazine, IEEE},
+  volume={48},
+  number={9},
+  pages={140--150},
+  year={2010},
+  publisher={IEEE}
+}
+
+%health care
+@inproceedings{cimler2014cloud,
+  title={Cloud based solution for mobile healthcare application},
+  author={Cimler, Richard and Matyska, Jan and Sobeslav, Vladimir},
+  booktitle={Proceedings of the 18th International Database Engineering \& Applications Symposium},
+  pages={298--301},
+  year={2014},
+  organization={ACM}
+}
+@inproceedings{wu2013mobile,
+  title={Mobile healthcare systems with multi-cloud offloading},
+  author={Wu, Huaming and Wang, Qiushi and Wolter, Katinka},
+  booktitle={Mobile Data Management (MDM), 2013 IEEE 14th International Conference on},
+  volume={2},
+  pages={188--193},
+  year={2013},
+  organization={IEEE}
+}
+@inproceedings{hoang2010mobile,
+  title={Mobile cloud for assistive healthcare (MoCAsH)},
+  author={Hoang, Doan B and Chen, Lingfeng},
+  booktitle={Services Computing Conference (APSCC), 2010 IEEE Asia-Pacific},
+  pages={325--332},
+  year={2010},
+  organization={IEEE}
+}
+
+
+%localized cloud
+@inproceedings{hasan2015aura,
+  title={Aura: an IoT based cloud infrastructure for localized mobile computation outsourcing},
+  author={Hasan, Ragib and Hossain, Md Mahmud and Khan, Rasib},
+  booktitle={Mobile Cloud Computing, Services, and Engineering (MobileCloud), 2015 3rd IEEE International Conference on},
+  pages={183--188},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{kim2015nested,
+  title={Nested game-based computation offloading scheme for Mobile Cloud IoT systems},
+  author={Kim, Sungwook},
+  journal={EURASIP Journal on Wireless Communications and Networking},
+  volume={2015},
+  number={1},
+  pages={1--11},
+  year={2015},
+  publisher={Springer}
+}
+
+%Entries
+% --------------------------------------
+% 			section robustness
+% --------------------------------------
+% web articles 
+
+% papers
+@inproceedings{hills2014robust,
+	title={Robust design and experimental demonstrations of carbon nanotube digital circuits},
+	author={Hills, Gage and Shulaker, Max and Wei, Hai and Chen, Hong-Yu and Wong, H-S Philip and Mitra, Subhasish},
+	booktitle={Custom Integrated Circuits Conference (CICC), 2014 IEEE Proceedings of the},
+	pages={1--4},
+	year={2014},
+	organization={IEEE}
+}
+@article{sengupta2015investigation,
+	title={Investigation of inter-channel crosstalk mitigation by assist light in a TOAD switch by using electrical equivalent circuit model of SOA},
+	author={Sengupta, I and Barman, A Das},
+	journal={Optical and Quantum Electronics},
+	volume={47},
+	number={2},
+	pages={331--350},
+	year={2015},
+	publisher={Springer}
+}
+@article{liu2014low,
+	title={A low noise sigma-delta microaccelerometer interface circuit},
+	author={Liu, Xiaowei and Xu, Honglin and Yin, Liang and Gao, Zhiqiang and Ren, Mingyuan},
+	journal={IEICE Electronics Express},
+	volume={11},
+	number={12},
+	pages={20140315--20140315},
+	year={2014},
+	publisher={The Institute of Electronics, Information and Communication Engineers}
+}
+@article{wu2014power,
+	title={Power-planning-aware soft error hardening via selective voltage assignment},
+	author={Wu, Kai-Chiang and Marculescu, Diana},
+	journal={Very Large Scale Integration (VLSI) Systems, IEEE Transactions on},
+	volume={22},
+	number={1},
+	pages={136--145},
+	year={2014},
+	publisher={IEEE}
+}
+@phdthesis{petersen2014role,
+	title={The Role of IoT in Network Resilience},
+	author={Petersen, Hauke and Baccelli, Emmanuel and W{\"a}hlisch, Matthias and Schmidt, TC and Schiller, Jochen},
+	year={2014},
+	school={.}
+}
+@article{gonizzi2015data,
+	title={Data dissemination scheme for distributed storage for IoT observation systems at large scale},
+	author={Gonizzi, Pietro and Ferrari, Gianluigi and Gay, Vincent and Leguay, J{\'e}r{\'e}mie},
+	journal={Information Fusion},
+	volume={22},
+	pages={16--25},
+	year={2015},
+	publisher={Elsevier}
+}
+
+% --------------------------------------
+% 			section Energy-efficiency
+% --------------------------------------
+% web articles 
+@electronic{energy:next_gen,
+	author = "Anirban Sengupta and Reuben George",
+	title = {The role of SRAMs in nextgen IoT and wearable embedded designs},
+	note = "http://www.embedded.com/design/connectivity/4437808\\/The-role-of-SRAMs-in-nextgen-IoT-and-wearable-embedded-designs"
+}
+@electronic{energy:iot_energy,
+	author = "Owen Poindexter",
+	title = {The Internet of Things Will Thrive On Energy Efficiency},
+	year = {2014},
+	url           ={ "http://www.govtech.com/fs/news/The-Internet-of-Things-Will-Thrive-On-Energy-Efficiency-.html"}
+}
+@electronic{energy:iot_sram,
+	CTLuse_alt_spacing = "no",
+	author = "Anirban Sengupta and Reuben George",
+	title = {The role of SRAMs in nextgen IoT and wearable embedded designs},
+	url           = "http://www.embedded.com/design/connectivity/4437808/The-role-of-SRAMs-in-nextgen-IoT-and-wearable-embedded-designs"
+}
+
+
+
+% papers
+@inproceedings{li2015negotiation,
+	title={Negotiation-based task scheduling and storage control algorithm to minimize user's electric bills under dynamic prices},
+	author={Li, Ji and Wang, Yanzhi and Lin, Xue and Nazarian, Shahin and Pedram, Massoud},
+	booktitle={Design Automation Conference (ASP-DAC), 2015 20th Asia and South Pacific},
+	pages={261--266},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{klinefelter201521,
+	title={21.3 A 6.45$\mu$W self-powered IoT SoC with integrated energy-harvesting power management and ULP asymmetric radios},
+	author={Klinefelter, Alicia and Roberts, Nathan E and Shakhsheer, Yousef and Gonzalez, Patricia and Shrivastava, Aatmesh and Roy, Abhishek and Craig, Kyle and Faisal, Muhammad and Boley, James and Oh, Seunghyun and others},
+	booktitle={Solid-State Circuits Conference-(ISSCC), 2015 IEEE International},
+	pages={1--3},
+	year={2015},
+	organization={IEEE}
+}
+
+@inproceedings{li2014negotiation,
+	title={Negotiation-based task scheduling to minimize user??? s electricity bills under dynamic energy prices},
+	author={Li, Ji and Wang, Yanzhi and Cui, Tiansong and Nazarian, Shahin and Pedram, Massoud},
+	booktitle={Green Communications (OnlineGreencomm), 2014 IEEE Online Conference on},
+	pages={1--6},
+	year={2014},
+	organization={IEEE}
+}
+
+@inproceedings{li2016accelerating,
+	title={Accelerating soft-error-rate (SER) estimation in the presence of single event transients},
+	author={Li, Ji and Draper, Jeffrey},
+	booktitle={Proceedings of the 53rd Annual Design Automation Conference},
+	pages={55},
+	year={2016},
+	organization={ACM}
+}
+@inproceedings{lee2015powering,
+	title={Powering the IoT: Storage-less and converter-less energy harvesting},
+	author={Lee, Hyung Gyu and Chang, Naehyuck},
+	booktitle={The 20th Asia and South Pacific Design Automation Conference},
+	pages={124--129},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{yue2014model,
+	title={Model-free learning-based online management of hybrid electrical energy storage systems in electric vehicles},
+	author={Yue, Siyu and Wang, Yanzhi and Xie, Qing and Zhu, Di and Pedram, Massoud and Chang, Naehyuck},
+	booktitle={IECON 2014-40th Annual Conference of the IEEE Industrial Electronics Society},
+	pages={3142--3148},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{chang2014power,
+	title={Power consumption characterization, modeling and estimation of electric vehicles},
+	author={Chang, Naehyuck and Baek, Donkyu and Hong, Jeongmin},
+	booktitle={2014 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},
+	pages={175--182},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{li2016negotiation,
+	title={Negotiation-based resource provisioning and task scheduling algorithm for cloud systems},
+	author={Li, Ji and Wang, Yanzhi and Lin, Xue and Nazarian, Shahin and Pedram, Massoud},
+	booktitle={2016 17th International Symposium on Quality Electronic Design (ISQED)},
+	pages={338--343},
+	year={2016},
+	organization={IEEE}
+}
+@inproceedings{pinckney2016near,
+	title={Near-threshold computing in FinFET technologies: opportunities for improved voltage scalability},
+	author={Pinckney, Nathaniel and Shifren, Lucian and Cline, Brian and Sinha, Saurabh and Jeloka, Supreet and Dreslinski, Ronald G and Mudge, Trevor and Sylvester, Dennis and Blaauw, David},
+	booktitle={Proceedings of the 53rd Annual Design Automation Conference},
+	pages={76},
+	year={2016},
+	organization={ACM}
+}
+@inproceedings{li2015leakage,
+	title={Leakage power reduction for deeply-scaled FinFET circuits operating in multiple voltage regimes using fine-grained gate-length biasing technique},
+	author={Li, Ji and Xie, Qing and Wang, Yanzhi and Nazarian, Shahin and Pedram, Massoud},
+	booktitle={Proceedings of the 2015 Design, Automation \& Test in Europe Conference \& Exhibition},
+	pages={1579--1582},
+	year={2015},
+	organization={EDA Consortium}
+}
+@inproceedings{heidari2015multi,
+	title={Multi-source energy harvesting management and optimization for non-volatile processors},
+	author={Heidari, Soroush and Ding, Caiwen and Liu, Yongpan and Wang, Yanzhi and Hu, Jingtong},
+	booktitle={Green Computing Conference and Sustainable Computing Conference (IGSC), 2015 Sixth International},
+	pages={1--2},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{ding2016multi,
+	title={Multi-source in-door energy harvesting for non-volatile processors},
+	author={Ding, Caiwen and Heidari, Soroush and Wang, Yanzhi and Liu, Yongpan and Hu, Jingtong},
+	booktitle={2016 IEEE International Symposium on Circuits and Systems (ISCAS)},
+	pages={173--176},
+	year={2016},
+	organization={IEEE}
+}
+@article{li2013compressed,
+	title={Compressed sensing signal and data acquisition in wireless sensor networks and internet of things},
+	author={Li, Shancang and Da Xu, Li and Wang, Xinheng},
+	journal={IEEE Transactions on Industrial Informatics},
+	volume={9},
+	number={4},
+	pages={2177--2186},
+	year={2013},
+	publisher={IEEE}
+}
+@article{wu2014green,
+	title={A green energy-efficient scheduling algorithm using the DVFS technique for cloud datacenters},
+	author={Wu, Chia-Ming and Chang, Ruay-Shiung and Chan, Hsin-Yu},
+	journal={Future Generation Computer Systems},
+	volume={37},
+	pages={141--147},
+	year={2014},
+	publisher={Elsevier}
+}
+@inproceedings{arora2014comparison,
+	title={A comparison of core power gating strategies implemented in modern hardware},
+	author={Arora, Manish and Manne, Srilatha and Eckert, Yasuko and Paul, Indrani and Jayasena, Nuwan and Tullsen, Dean},
+	booktitle={The 2014 ACM international conference on Measurement and modeling of computer systems},
+	pages={559--560},
+	year={2014},
+	organization={ACM}
+}
+@article{bardine2014evaluation,
+	title={Evaluation of leakage reduction alternatives for deep submicron dynamic nonuniform cache architecture caches},
+	author={Bardine, Alessandro and Comparetti, Manuel and Foglia, Pierfrancesco and Prete, Cosimo Antonio},
+	journal={Very Large Scale Integration (VLSI) Systems, IEEE Transactions on},
+	volume={22},
+	number={1},
+	pages={185--190},
+	year={2014},
+	publisher={IEEE}
+}
+@article{battista2014graphene,
+	title={Graphene and carbon black nano-composite polymer absorbers for a pyro-electric solar energy harvesting device based on LiNbO 3 crystals},
+	author={Battista, Luigi and Mecozzi, Laura and Coppola, Sara and Vespini, Veronica and Grilli, Simonetta and Ferraro, Pietro},
+	journal={Applied Energy},
+	volume={136},
+	pages={357--362},
+	year={2014},
+	publisher={Elsevier}
+}
+@article{fadhil2014energy,
+	title={Energy Harvesting using Nano-fibers PVDF$\backslash$ Graphene composite for Medical implanted devices},
+	author={Fadhil, Nazar and Saber, Dleer and Cox, Paris and Vanashi, Kripa and Patra, Prabir},
+	year={2014}
+}
+@inproceedings{babazadeh2014new,
+	title={A new control scheme in a multi-battery management system for expanding microgrids},
+	author={Babazadeh, Hamed and Asghari, Babak and Sharma, Ritu},
+	booktitle={Innovative Smart Grid Technologies Conference (ISGT), 2014 IEEE PES},
+	pages={1--5},
+	year={2014},
+	organization={IEEE}
+}
+@misc{kawahara2014battery,
+	title={Battery control circuit for reducing power consumption},
+	author={Kawahara, Youhei and Nakao, Ryouhei and Kudo, Akihiko and Emori, Akihiko and Sakabe, Kei},
+	year={2014},
+	month=may # "~27",
+	publisher={Google Patents},
+	note={US Patent 8,736,229}
+}
+@inproceedings{chang201517,
+	title={17.3 A 28nm 256kb 6T-SRAM with 280mV improvement in V MIN using a dual-split-control assist scheme},
+	author={Chang, Meng-Fan and Chen, Chien-Fu and Chang, Ting-Hao and Shuai, Chi-Chang and Wang, Yen-Yao and Yamauchi, Hiroyuki},
+	booktitle={Solid-State Circuits Conference-(ISSCC), 2015 IEEE International},
+	pages={1--3},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{steegen2015technology,
+	title={Technology innovation in an IoT Era},
+	author={Steegen, An},
+	booktitle={VLSI Technology (VLSI Technology), 2015 Symposium on},
+	pages={C170--C171},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{yahya2015combined,
+	title={Combined SRAM read/write assist techniques for near/sub-threshold voltage operation},
+	author={Yahya, Farah B and Patel, Harsh N and Chandra, Vikas and Calhoun, Benton H},
+	booktitle={Quality Electronic Design (ASQED), 2015 6th Asia Symposium on},
+	pages={1--6},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{abinaya2015event,
+	title={An event based CMOS quad bilateral combination with asynchronous SRAM architecture based neural network using low power},
+	author={Abinaya, B and Sophia, S},
+	booktitle={Electronics and Communication Systems (ICECS), 2015 2nd International Conference on},
+	pages={995--999},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{morris2015variation,
+	title={Variation-tolerant dense TFET memory with low V MIN matching low-voltage TFET logic},
+	author={Morris, Daniel H and Avci, Uygar E and Young, Ian A},
+	booktitle={VLSI Technology (VLSI Technology), 2015 Symposium on},
+	pages={T24--T25},
+	year={2015},
+	organization={IEEE}
+}
+@article{baccelli2014information,
+	title={Information centric networking in the IoT: Experiments with NDN in the wild},
+	author={Baccelli, Emmanuel and Mehlis, Christian and Hahm, Oliver and Schmidt, Thomas C and W{\"a}hlisch, Matthias},
+	journal={arXiv preprint arXiv:1406.6608},
+	year={2014}
+}
+@inproceedings{datta2014iot,
+	title={An IoT gateway centric architecture to provide novel M2M services},
+	author={Datta, Soumya Kanti and Bonnet, Christian and Nikaein, Navid},
+	booktitle={Internet of Things (WF-IoT), 2014 IEEE World Forum on},
+	pages={514--519},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{song2013content,
+	title={Content-centric internetworking for resource-constrained devices in the Internet of Things},
+	author={Song, Yuning and Ma, Huadong and Liu, Liang},
+	booktitle={Communications (ICC), 2013 IEEE International Conference on},
+	pages={1742--1747},
+	year={2013},
+	organization={IEEE}
+}
+
+% --------------------------------------
+% 			section security
+% --------------------------------------
+% web articles 
+@online{security:hp,
+	title = {Internet of Things Research Study},
+	year = {2015},
+	url           ={http://www8.hp.com/h20195/V2/GetPDF.aspx/4AA5-4759ENW.pdf}
+}
+@electronic{security:cisco,
+	title = {Build a Secure, Manageable Network for Tomorrow, Today},
+	year = {2015},
+	url           = "http://www.cisco.com/web/solutions/trends/iot/security.html"
+}
+@electronic{security:proj,
+	author = "Philip Levis",
+	title = {Securing the Internet of Things},
+	year = {2015},
+	url           = "http://iot.stanford.edu/seminar/sitp-w15-levis.pdf"
+}
+@electronic{security:someweb,
+	title = {The right security for the Internet of Things},
+	year = {2015},
+	url           = "http://www.infineon.com/cms/en/applications/chip-card-security/internet-of-things-security"
+}
+@electronic{security:iotcomputing,
+	author = "Bill Kleyman",
+	year = {2013},
+	title = {Welcome to Fog Computing: Extending the Cloud to the Edge},
+	url           = "http://www.datacenterknowledge.com/archives/2013/08/23/welcome-to-the-fog-a-new-type-of-distributed-computing"
+}
+
+
+
+% papers
+@article{rostami2014primer,
+	title={A primer on hardware security: Models, methods, and metrics},
+	author={Rostami, Mohamad and Koushanfar, Farinaz and Karri, Ramesh},
+	journal={Proceedings of the IEEE},
+	volume={102},
+	number={8},
+	pages={1283--1295},
+	year={2014},
+	publisher={IEEE}
+}
+@inproceedings{cam2016invited,
+	title={Invited-Can IoT be secured: emerging challenges in connecting the unconnected},
+	author={Cam-Winget, Nancy and Sadeghi, Ahmad-Reza and Jin, Yier},
+	booktitle={Proceedings of the 53rd Annual Design Automation Conference},
+	pages={122},
+	year={2016},
+	organization={ACM}
+}
+@inproceedings{noorman2013sancus,
+	title={Sancus: Low-cost trustworthy extensible networked devices with a zero-software trusted computing base},
+	author={Noorman, Job and Agten, Pieter and Daniels, Wilfried and Strackx, Raoul and Van Herrewege, Anthony and Huygens, Christophe and Preneel, Bart and Verbauwhede, Ingrid and Piessens, Frank},
+	booktitle={Presented as part of the 22nd USENIX Security Symposium (USENIX Security 13)},
+	pages={479--498},
+	year={2013}
+}
+@inproceedings{shafagh2015poster,
+	title={Poster: Towards Encrypted Query Processing for the Internet of Things},
+	author={Shafagh, Hossein and Hithnawi, Anwar and Dr{\"o}scher, Andreas and Duquennoy, Simon and Hu, Wen},
+	booktitle={Proceedings of the 21st Annual International Conference on Mobile Computing and Networking},
+	pages={251--253},
+	year={2015},
+	organization={ACM}
+}
+@inproceedings{security:gou2013construction,
+	title={Construction and Strategies in IoT Security System},
+	author={Gou, Quandeng and Yan, Lianshan and Liu, Yihe and Li, Yao},
+	booktitle={Green Computing and Communications (GreenCom), 2013 IEEE and Internet of Things (iThings/CPSCom), IEEE International Conference on and IEEE Cyber, Physical and Social Computing},
+	pages={1129--1132},
+	year={2013},
+	organization={IEEE}
+}
+@inproceedings{security:riahi2014systemic,
+	title={A systemic and cognitive approach for IoT security},
+	author={Riahi, Arbia and Natalizio, Enrico and Challal, Yacine and Mitton, Nathalie and Iera, Antonio},
+	booktitle={Computing, Networking and Communications (ICNC), 2014 International Conference on},
+	pages={183--188},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{security:pohls2014rerum,
+	title={RERUM: Building a reliable IoT upon privacy-and security-enabled smart objects},
+	author={Pohls, Henrich C and Angelakis, Vangelis and Suppan, Santiago and Fischer, Kai and Oikonomou, George and Tragos, Elias Z and Diaz Rodriguez, Rodrigo and Mouroutis, Theodoros},
+	booktitle={Wireless Communications and Networking Conference Workshops (WCNCW), 2014 IEEE},
+	pages={122--127},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{security:zhang2014iot,
+	title={IoT Security: Ongoing Challenges and Research Opportunities},
+	author={Zhang, Zhi-Kai and Cho, Michael Cheng Yi and Wang, Chia-Wei and Hsu, Chia-Wei and Chen, Chong-Kuan and Shieh, Shiuhpyng},
+	booktitle={Service-Oriented Computing and Applications (SOCA), 2014 IEEE 7th International Conference on},
+	pages={230--234},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{security:giuliano2014security,
+	title={Security Access Protocols in IoT Networks with Heterogenous Non-IP Terminals},
+	author={Giuliano, Romeo and Mazzenga, Franco and Neri, Alessandro and Vegni, Anna Maria},
+	booktitle={Distributed Computing in Sensor Systems (DCOSS), 2014 IEEE International Conference on},
+	pages={257--262},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{security:sahraoui2014compressed,
+	title={Compressed and distributed host identity protocol for end-to-end security in the IoT},
+	author={Sahraoui, Somia and Bilami, Azeddine},
+	booktitle={Next Generation Networks and Services (NGNS), 2014 Fifth International Conference on},
+	pages={295--301},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{security:liu2013novel,
+	title={A novel approach to iot security based on immunology},
+	author={Liu, Caiming and Zhang, Yan and Zhang, Huaqiang},
+	booktitle={Computational Intelligence and Security (CIS), 2013 9th International Conference on},
+	pages={771--775},
+	year={2013},
+	organization={IEEE}
+}
+@inproceedings{security:xu2014security,
+	title={Security of IoT systems: Design challenges and opportunities},
+	author={Xu, Teng and Wendt, James B and Potkonjak, Miodrag},
+	booktitle={Proceedings of the 2014 IEEE/ACM International Conference on Computer-Aided Design},
+	pages={417--423},
+	year={2014},
+	organization={IEEE Press}
+}
+%	 from Prof.Bogdan
+@incollection{security:roman2012security,
+	title={Security in the Distributed Internet of Things},
+	author={Roman, Rodrigo and Lopez, Javier},
+	booktitle={Trusted Systems},
+	pages={65--66},
+	year={2012},
+	publisher={Springer}
+}
+@misc{security:aggarwal2013internet,
+	title={The Internet of Things: A Survey from the Data-Centric Perspective.},
+	author={Aggarwal, Charu C and Ashish, Naveen and Sheth, Amit P},
+	year={2013}
+}
+@article{security:want2015enabling,
+	title={Enabling the Internet of Things},
+	author={Want, Roy and Schilit, Bill N and Jenson, Scott},
+	journal={Computer},
+	number={1},
+	pages={28--35},
+	year={2015},
+	publisher={IEEE}
+}
+@article{security:roman2011securing,
+	title={Securing the internet of things},
+	author={Roman, Rodrigo and Najera, Pablo and Lopez, Javier},
+	journal={Computer},
+	volume={44},
+	number={9},
+	pages={51--58},
+	year={2011},
+	publisher={IEEE}
+}
+@article{rostami2014primer,
+	title={A primer on hardware security: Models, methods, and metrics},
+	author={Rostami, Mohamad and Koushanfar, Farinaz and Karri, Ramesh},
+	journal={Proceedings of the IEEE},
+	volume={102},
+	number={8},
+	pages={1283--1295},
+	year={2014},
+	publisher={IEEE}
+}
+
+% attack types
+@inproceedings{korczyc2012evaluation,
+	title={Evaluation of susceptibility of FPGA-based circuits to fault injection attacks based on clock glitching},
+	author={Korczyc, Jakub and Krasniewski, Andrzej},
+	booktitle={Design and Diagnostics of Electronic Circuits \& Systems (DDECS), 2012 IEEE 15th International Symposium on},
+	pages={171--174},
+	year={2012},
+	organization={IEEE}
+}
+@article{lerman2014power,
+	title={Power analysis attack: an approach based on machine learning},
+	author={Lerman, Liran and Bontempi, Gianluca and Markowitch, Olivier},
+	journal={International Journal of Applied Cryptography},
+	volume={3},
+	number={2},
+	pages={97--115},
+	year={2014},
+	publisher={Inderscience Publishers Ltd}
+}
+@inproceedings{wang2014optical,
+	title={Optical Fault Injection Attacks against Cipher Chip},
+	author={Wang, Hong Sheng and Ji, Dao Gang and Zhang, Yang and Chen, Kai Yan and Song, Kai},
+	booktitle={Advanced Materials Research},
+	volume={1044},
+	pages={1498--1502},
+	year={2014},
+	organization={Trans Tech Publ}
+}
+@inproceedings{stellari2014functional,
+	title={Functional block extraction for hardware security detection using time-integrated and time-resolved emission measurements},
+	author={Stellari, Franco and Song, Peilin and Ainspan, Herschel and others},
+	booktitle={VLSI Test Symposium (VTS), 2014 IEEE 32nd},
+	pages={1--6},
+	year={2014},
+	organization={IEEE}
+}
+@article{delvaux2014fault,
+	title={Fault Injection Modeling Attacks on 65 nm Arbiter and RO sum PUFs via Environmental Changes},
+	author={Delvaux, Jeroen and Verbauwhede, Ingrid},
+	journal={Circuits and Systems I: Regular Papers, IEEE Transactions on},
+	volume={61},
+	number={6},
+	pages={1701--1713},
+	year={2014},
+	publisher={IEEE}
+}
+@incollection{kison2015finding,
+	title={Finding the AES Bits in the Haystack: Reverse Engineering and SCA Using Voltage Contrast},
+	author={Kison, Christian and Frinken, J{\"u}rgen and Paar, Christof},
+	booktitle={Cryptographic Hardware and Embedded Systems--CHES 2015},
+	pages={641--660},
+	year={2015},
+	publisher={Springer}
+}
+@misc{skorobogatov2014tamper,
+	title={Tamper resistance and hardware security},
+	author={Skorobogatov, Sergei},
+	year={2014},
+	publisher={Citeseer}
+}
+@inproceedings{wei2014reverse,
+	title={Reverse Engineering and Prevention Techniques for Physical Unclonable Functions Using Side Channels},
+	author={Wei, Sheng and Wendt, James B and Nahapetian, Ani and Potkonjak, Miodrag},
+	booktitle={Proceedings of the 51st Annual Design Automation Conference},
+	pages={1--6},
+	year={2014},
+	organization={ACM}
+}
+@article{noel2012risk,
+	title={A Risk Assessment Technique: For Predicting the Magnitude of Satellite Programming Theft.},
+	author={Noel, David E and Miller, M Lisa},
+	journal={Ethics \& Critical Thinking Journal},
+	volume={2012},
+	number={1},
+	year={2012}
+}
+@misc{watson2013system,
+	title={System and method for automatically creating a media archive from content on a recording medium},
+	author={Watson, David J and Bielman, James and Barrett, Phillip L and Hamilton, Nicole A},
+	year={2013},
+	month=nov # "~12",
+	publisher={Google Patents},
+	note={US Patent 8,582,954}
+}
+@inproceedings{rawlings2008raising,
+	title={Raising the Bar for Hardware Security: Physical Layer Security in Standard CMOS},
+	author={Rawlings, Craig},
+	booktitle={Technologies for Homeland Security, 2008 IEEE Conference on},
+	pages={263--268},
+	year={2008},
+	organization={IEEE}
+}
+
+% solution to attacks
+@inproceedings{wendt2014hardware,
+	title={Hardware obfuscation using PUF-based logic},
+	author={Wendt, James B and Potkonjak, Miodrag},
+	booktitle={Proceedings of the 2014 IEEE/ACM International Conference on Computer-Aided Design},
+	pages={270--277},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{frey2015exploiting,
+	title={Exploiting state obfuscation to detect hardware trojans in NoC network interfaces},
+	author={Frey, Jonathan and Yu, Qiaoyan},
+	booktitle={Circuits and Systems (MWSCAS), 2015 IEEE 58th International Midwest Symposium on},
+	pages={1--4},
+	year={2015},
+	organization={IEEE}
+}
+@article{zhang2015practical,
+	title={A Practical Logic Obfuscation Technique for Hardware Security},
+	author={Zhang, Jiliang},
+	year={2015},
+	publisher={IEEE}
+}
+@inproceedings{cocchi2014circuit,
+	title={Circuit camouflage integration for hardware IP protection},
+	author={Cocchi, Ronald P and Baukus, James P and Chow, Lap Wai and Wang, B Jiangyun},
+	booktitle={Design Automation Conference (DAC), 2014 51st ACM/EDAC/IEEE},
+	pages={1--5},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{el2015integrated,
+	title={Integrated Circuit (IC) Decamouflaging: Reverse Engineering Camouflaged ICs within Minutes.},
+	author={El Massad, Mohamed and Garg, Siddharth and Tripunitara, Mahesh V},
+	booktitle={NDSS},
+	year={2015}
+}
+@article{karri2015guest,
+	title={Guest Editorial Special Section on Hardware Security and Trust},
+	author={Karri, Ramesh and Koushanfar, Farinaz and Sinanoglu, Ozgur and Makris, Yiorgos and Mai, Ken and Sadeghi, Ahmad Reza and Bhunia, Swarup},
+	journal={Computer-Aided Design of Integrated Circuits and Systems, IEEE Transactions on},
+	volume={34},
+	number={6},
+	pages={873--874},
+	year={2015},
+	publisher={IEEE}
+}
+@article{braun2015robust,
+	title={Robust and Efficient Elimination of Cache and Timing Side Channels},
+	author={Braun, Benjamin A and Jana, Suman and Boneh, Dan},
+	journal={arXiv preprint arXiv:1506.00189},
+	year={2015}
+}
+@inproceedings{fang2015balance,
+	title={Balance power leakage to fight against side-channel analysis at gate level in FPGAs},
+	author={Fang, Xin and Luo, Pei and Fei, Yunsi and Leeser, Miriam},
+	booktitle={Application-specific Systems, Architectures and Processors (ASAP), 2015 IEEE 26th International Conference on},
+	pages={154--155},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{demme2012side,
+	title={Side-channel vulnerability factor: a metric for measuring information leakage},
+	author={Demme, John and Martin, Robert and Waksman, Adam and Sethumadhavan, Simha},
+	booktitle={ACM SIGARCH Computer Architecture News},
+	volume={40},
+	number={3},
+	pages={106--117},
+	year={2012},
+	organization={IEEE Computer Society}
+}
+@incollection{oswald2014reverse,
+	title={When reverse-engineering meets side-channel analysis--digital lockpicking in practice},
+	author={Oswald, David and Strobel, Daehyun and Schellenberg, Falk and Kasper, Timo and Paar, Christof},
+	booktitle={Selected Areas in Cryptography--SAC 2013},
+	pages={571--588},
+	year={2014},
+	publisher={Springer}
+}
+@incollection{xiao2014dynamic,
+	title={Dynamic Key Management in a Smart Grid},
+	author={Xiao, Sheng and Gong, Weibo and Towsley, Don},
+	booktitle={Dynamic Secrets in Communication Security},
+	pages={55--68},
+	year={2014},
+	publisher={Springer}
+}
+@incollection{holcomb2014bitline,
+	title={Bitline PUF: Building Native Challenge-Response PUF Capability into Any SRAM},
+	author={Holcomb, Daniel E and Fu, Kevin},
+	booktitle={Cryptographic Hardware and Embedded Systems--CHES 2014},
+	pages={510--526},
+	year={2014},
+	publisher={Springer}
+}
+@inproceedings{shiozaki2015tamper,
+	title={Tamper-resistant authentication system with side-channel attack resistant AES and PUF using MDR-ROM},
+	author={Shiozaki, Mitsuru and Kubota, Takaya and Nakai, Tsunato and Takeuchi, Akihiro and Nishimura, Takashi and Fujino, Takeshi},
+	booktitle={Circuits and Systems (ISCAS), 2015 IEEE International Symposium on},
+	pages={1462--1465},
+	year={2015},
+	organization={IEEE}
+}
+@inproceedings{ruhrmair2014special,
+	title={Special session: how secure are PUFs really? On the reach and limits of recent PUF attacks},
+	author={R{\"u}hrmair, Ulrich and Schlichtmann, Ulf and Burleson, Wayne},
+	booktitle={Proceedings of the conference on Design, Automation \& Test in Europe},
+	pages={346},
+	year={2014},
+	organization={European Design and Automation Association}
+}
+@inproceedings{fan2014use,
+	title={On the use of scan chain to improve physical attacks},
+	author={Fan, Junfeng and Xie, Hua and Zhang, Yiwei},
+	booktitle={Test Symposium (ATS), 2014 IEEE 23rd Asian},
+	pages={354--357},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{oya2014secure,
+	title={Secure scan design using improved random order and its evaluations},
+	author={Oya, Masaru and Atobe, Yuta and Shi, Youhua and Yanagisawa, Masao and Togawa, Nozomu},
+	booktitle={Circuits and Systems (APCCAS), 2014 IEEE Asia Pacific Conference on},
+	pages={555--558},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{sahraoui2014compressed,
+	title={Compressed and distributed host identity protocol for end-to-end security in the IoT},
+	author={Sahraoui, Somia and Bilami, Azeddine},
+	booktitle={Next Generation Networks and Services (NGNS), 2014 Fifth International Conference on},
+	pages={295--301},
+	year={2014},
+	organization={IEEE}
+}
+@inproceedings{giuliano2014security,
+	title={Security Access Protocols in IoT Networks with Heterogenous Non-IP Terminals},
+	author={Giuliano, Romeo and Mazzenga, Franco and Neri, Alessandro and Vegni, Anna Maria},
+	booktitle={Distributed Computing in Sensor Systems (DCOSS), 2014 IEEE International Conference on},
+	pages={257--262},
+	year={2014},
+	organization={IEEE}
+}
+
+
+@inproceedings{thesis,
+	title={A fully homomorphic encryption scheme},
+	author={Gentry, C.},
+	booktitle={phD Thesis},
+	year={2009}
+}
+@article{yang2014targeted,
+	title={Targeted fully homomorphic encryption based on a Double Decryption Algorithm for polynomials},
+	author={Yang, Yatao and Zhang, Shuang and Yang, Junming and Li, Jia and Li, Zichen},
+	journal={Tsinghua science and technology},
+	volume={19},
+	number={5},
+	pages={478--485},
+	year={2014},
+	publisher={TUP}
+}
+@inproceedings{choi2012design,
+	title={Design and Evaluation of SensorSafe: A Framework for Achieving Behavioral Privacy in Sharing Personal Sensory Information},
+	author={Choi, Haksoo and Chakraborty, Supriyo and Srivastava, Mani B},
+	booktitle={Trust, Security and Privacy in Computing and Communications (TrustCom), 2012 IEEE 11th International Conference on},
+	pages={1004--1011},
+	year={2012},
+	organization={IEEE}
+}
+@inproceedings{arjunan2012sensoract,
+	title={SensorAct: a privacy and security aware federated middleware for building management},
+	author={Arjunan, Pandarasamy and Batra, Nipun and Choi, Haksoo and Singh, Amarjeet and Singh, Pushpendra and Srivastava, Mani B},
+	booktitle={Proceedings of the Fourth ACM Workshop on Embedded Sensing Systems for Energy-Efficiency in Buildings},
+	pages={80--87},
+	year={2012},
+	organization={ACM}
+}
+
+
+
+% --------------------------------------
+% 			safety security
+% --------------------------------------
+@electronic{safety:wiki,
+	CTLuse_alt_spacing = "no",
+	author = "wikipedia",
+	title = {Safety},
+	url           = "https://en.wikipedia.org/wiki/Safety"
+}
+
+
+
+@electronic{safety:linkedin,
+	CTLuse_alt_spacing = "no",
+	author = "Spencer Coursen",
+	title = {Safety vs. Security: Understanding the Difference May Soon Save Lives},
+	url           = "https://www.linkedin.com/pulse/20140831152519-11537006-understanding-the-difference-may-soon-save-lives-safety-vs-security"
+}
+
+%-------------------------------------
+% Newly added 
+%-------------------------------------
+@inproceedings{bogdan2015cyber,
+  title={A cyber-physical systems approach to personalized medicine: challenges and opportunities for noc-based multicore platforms},
+  author={Bogdan, Paul},
+  booktitle={Proceedings of the 2015 Design, Automation \& Test in Europe Conference \& Exhibition},
+  pages={253--258},
+  year={2015},
+  organization={EDA Consortium}
+}
+
+@inproceedings{bogdan2015cyber_2,
+  title={Cyber-physical systems for personalized and precise medicine},
+  author={Bogdan, Paul and Xue, Yuankun},
+  booktitle={2015 IEEE 58th International Midwest Symposium on Circuits and Systems (MWSCAS)},
+  pages={1--4},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{ghorbani2013cyber,
+  title={A cyber-physical system approach to artificial pancreas design},
+  author={Ghorbani, Mahboobeh and Bogdan, Paul},
+  booktitle={Proceedings of the ninth IEEE/ACM/IFIP international conference on hardware/software codesign and system synthesis},
+  pages={17},
+  year={2013},
+  organization={IEEE Press}
+}
+
+@inproceedings{xue2016spatio,
+  title={A spatio-temporal fractal model for a CPS approach to brain-machine-body interfaces},
+  author={Xue, Yuankun and Rodriguez, Saul and Bogdan, Paul},
+  booktitle={2016 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
+  pages={642--647},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{pajic2015attack,
+  title={Attack-resilient state estimation in the presence of noise},
+  author={Pajic, Miroslav and Tabuada, Paulo and Lee, Insup and Pappas, George J},
+  booktitle={2015 54th IEEE Conference on Decision and Control (CDC)},
+  pages={5827--5832},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{fawzi2014secure,
+  title={Secure estimation and control for cyber-physical systems under adversarial attacks},
+  author={Fawzi, Hamza and Tabuada, Paulo and Diggavi, Suhas},
+  journal={IEEE Transactions on Automatic Control},
+  volume={59},
+  number={6},
+  pages={1454--1467},
+  year={2014},
+  publisher={IEEE}
+}
+
+
+@article{kumar2013mobile,
+  title={Mobile health: Revolutionizing healthcare through transdisciplinary research},
+  author={Kumar, Santosh and Nilsen, Wendy and Pavel, Misha and Srivastava, Mani},
+  journal={Computer},
+  number={1},
+  pages={28--35},
+  year={2013},
+  publisher={IEEE}
+}
+
+@book{clark2016submodularity,
+  title={Submodularity in Dynamics and Control of Networked Systems},
+  author={Clark, Andrew and Alomair, Basel and Bushnell, Linda and Poovendran, Radha},
+  year={2016},
+  publisher={Springer}
+}
+
+@inproceedings{suh2007physical,
+  title={Physical unclonable functions for device authentication and secret key generation},
+  author={Suh, G Edward and Devadas, Srinivas},
+  booktitle={Proceedings of the 44th annual Design Automation Conference},
+  pages={9--14},
+  year={2007},
+  organization={ACM}
+}
+
+@article{ruhrmair2013puf,
+  title={PUF modeling attacks on simulated and silicon data},
+  author={R{\"u}hrmair, Ulrich and S{\"o}lter, Jan and Sehnke, Frank and Xu, Xiaolin and Mahmoud, Ahmed and Stoyanova, Vera and Dror, Gideon and Schmidhuber, J{\"u}rgen and Burleson, Wayne and Devadas, Srinivas},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={8},
+  number={11},
+  pages={1876--1891},
+  year={2013},
+  publisher={IEEE}
+}
+
+%-------------------------------
+%    ICCPS References
+%-------------------------------
+@inproceedings{Besserve2013,
+  author = {Besserve, M. and Logothetis, N. and Schölkopf, B.},
+  biburl = {http://www.bibsonomy.org/bibtex/224a06b5e9eac65d1e5601239848cfca3/dblp},
+  booktitle = {NIPS},
+  crossref = {conf/nips/2013},
+    ee = {http://papers.nips.cc/paper/5079-statistical-analysis-of-coupled-time-series-with-kernel-cross-spectral-density-operators},
+  interhash = {9cd93127dc6a0d1c08d8015e27e83760},
+  intrahash = {24a06b5e9eac65d1e5601239848cfca3},
+  keywords = {dblp},
+  timestamp = {2015-06-19T08:31:52.000+0200},
+  title = {Statistical analysis of coupled time series with Kernel Cross-Spectral Density operators.},
+  url = {http://dblp.uni-trier.de/db/conf/nips/nips2013.html#BesserveLS13},
+  year = 2013
+}
+
+@article{Chiuso2016,
+	author="Chiuso A.",
+	title="Regularization and Bayesian Learning in Dynamical Systems: Past, Present and Future",
+	journal="Annual Reviews in Control - submitted",
+	year="20XX"
+}
+
+@article{crutchfield1987,
+  title={Equations of motion from a data series},
+  author={Crutchfield, J. and McNamara, B.},
+  journal={Complex systems},
+  volume={1},
+  number={417-452},
+  pages={121},
+  year={1987}
+}
+
+@inproceedings{Fox2008,
+  added-at = {2014-12-10T00:00:00.000+0100},
+  author = {Fox, E. and Sudderth, E. and Jordan, M. and Willsky, A.},
+  biburl = {http://www.bibsonomy.org/bibtex/28817d9a5566584e2aacb274b574f8a2a/dblp},
+  booktitle = {NIPS},
+  crossref = {conf/nips/2008},
+  editor = {Koller, Daphne and Schuurmans, Dale and Bengio, Yoshua and Bottou, Léon},
+  ee = {http://papers.nips.cc/paper/3546-nonparametric-bayesian-learning-of-switching-linear-dynamical-systems},
+  interhash = {962a5fe3ce683139f372804fe29451d3},
+  intrahash = {8817d9a5566584e2aacb274b574f8a2a},
+  keywords = {dblp},
+  pages = {457-464},
+  publisher = {Curran Associates, Inc.},
+  timestamp = {2015-06-19T08:13:30.000+0200},
+  title = {Nonparametric Bayesian Learning of Switching Linear Dynamical Systems.},
+  url = {http://dblp.uni-trier.de/db/conf/nips/nips2008.html#FoxSJW08},
+  year = 2008
+}
+
+@article{Friston2003,
+title = "Dynamic causal modelling ",
+journal = "NeuroImage ",
+volume = "19",
+number = "4",
+pages = "1273 - 1302",
+year = "2003",
+note = "",
+issn = "1053-8119",
+doi = "http://dx.doi.org/10.1016/S1053-8119(03)00202-7",
+url = "http://www.sciencedirect.com/science/article/pii/S1053811903002027",
+author = "Friston K. and Harrison L. and Penny W.",
+}
+
+
+@incollection{Granger1980,
+ author = {Granger, C. and Joyeux, R.},
+ chapter = {An Introduction to Long-memory Time Series Models and Fractional Differencing},
+ title = {Essays in Econometrics},
+ editor = {Ghysels, Eric and Swanson, Norman R. and Watson, Mark W.},
+ year = {2001},
+ isbn = {0-521-79697-0},
+ pages = {321--337},
+ numpages = {17},
+ url = {http://dl.acm.org/citation.cfm?id=781840.781858},
+ acmid = {781858},
+ publisher = {Harvard University Press},
+ address = {Cambridge, MA, USA},
+ keywords = {fractional differencing, integrated models, long-memory},
+}
+
+@book{Herrmann2011,
+   title = "Fractional Calculus: An Introduction for Physicists",
+   author = "Herrmann, R.",
+   publisher = "World Scientific",
+   address = "New Jersey,
+   year = 2011
+}
+
+
+@article{Hosking1981,
+author = {Hosking, J. R. M.},
+title = {Fractional differencing},
+volume = {68},
+number = {1},
+pages = {165-176},
+year = {1981},
+doi = {10.1093/biomet/68.1.165},
+abstract ={The family of autoregressive integrated moving-average processes, widely used in time series analysis, is generalized by permitting the degree of differencing to take fractional values. The fractional differencing operator is defined as an infinite binomial series expansion in powers of the backward-shift operator. Fractionally differenced processes exhibit long-term persistence and antipersistence; the dependence between observations a long time span apart decays much more slowly with time span than is the case with the more commonly studied time series models. Long-term persistent processes have applications in economics and hydrology; compared to existing models of long-term persistence, the family of models introduced here offers much greater flexibility in the simultaneous modelling of the short-term and long-term behaviour of a time series.},
+URL = {http://biomet.oxfordjournals.org/content/68/1/165.abstract},
+eprint = {http://biomet.oxfordjournals.org/content/68/1/165.full.pdf+html},
+journal = {Biometrika}
+}
+
+@article{ljung1994global,
+  title={On global identifiability for arbitrary model parametrizations},
+  author={Ljung, L. and Glad, T.},
+  journal={Automatica},
+  volume={30},
+  number={2},
+  pages={265--276},
+  year={1994},
+  publisher={Elsevier}
+}
+
+@article{Ljung2010,
+title = "Perspectives on system identification ",
+journal = "Annual Reviews in Control ",
+volume = "34",
+number = "1",
+pages = "1 - 12",
+year = "2010",
+note = "",
+issn = "1367-5788",
+doi = "http://dx.doi.org/10.1016/j.arcontrol.2009.12.001",
+url = "http://www.sciencedirect.com/science/article/pii/S1367578810000027",
+author = "Lennart Ljung",
+keywords = "System identification",
+keywords = "Mathematical models",
+keywords = "Estimation",
+keywords = "Non-linear models",
+keywords = "Statistical methods "
+}
+
+@INPROCEEDINGS{Ohlsson2008,
+author={Ohlsson, H. and Roll, J. and Ljung, L.},
+booktitle={Decision and Control, 2008. CDC 2008. 47th IEEE Conference on},
+title={Manifold-constrained regressors in system identification},
+year={2008},
+pages={1364-1369},
+keywords={data handling;learning (artificial intelligence);regression analysis;high-dimensional regression problems;manifold-constrained regressors;semisupervised method;system identification;Control systems;Ear;Euclidean distance;Jacobian matrices;Manifolds;Nonlinear systems;Space technology;System identification;Systems biology},
+doi={10.1109/CDC.2008.4739302},
+ISSN={0191-2216},
+month={Dec},
+}
+
+@book{Oldham1974,
+   title = "The fractional calculus : theory and applications of differentiation and integration to arbitrary order",
+   author = "Oldham, K. and Spanier, J.",
+   series = "Mathematics in science and engineering",
+   publisher = "Academic Press",
+   address = "New York",
+   url = "http://opac.inria.fr/record=b1083234",
+   isbn = "0-12-525550-0",
+   year = 1974
+}
+
+
+@incollection{Opper2008,
+title = {Variational inference for Markov jump processes},
+author = {Opper, M. and Sanguinetti, G.},
+booktitle = {Advances in Neural Information Processing Systems 20},
+editor = {J.C. Platt and D. Koller and Y. Singer and S.T. Roweis},
+pages = {1105--1112},
+year = {2008},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/3296-variational-inference-for-markov-jump-processes.pdf}
+}
+
+
+@article{Packard1980,
+  title = {Geometry from a Time Series},
+  author = {Packard, N. H. and Crutchfield, J. P. and Farmer, J. D. and Shaw, R. S.},
+  journal = {Phys. Rev. Lett.},
+  volume = {45},
+  issue = {9},
+  pages = {712--716},
+  numpages = {0},
+  year = {1980},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.45.712},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.45.712}
+}
+
+@book{Sabatier2007,
+ author = {Sabatier, J. and Agrawal, O. P. and Machado, J. A. Tenreiro},
+ title = {Advances in Fractional Calculus: Theoretical Developments and Applications in Physics and Engineering},
+ year = {2007},
+ isbn = {1402060416, 9781402060410},
+ edition = {1st},
+ publisher = {Springer Publishing Company, Incorporated},
+}
+
+@article{Tsallis1987,
+      author         = "Tsallis, Constantino",
+      title          = "{Possible Generalization of Boltzmann-Gibbs Statistics}",
+      journal        = "J. Statist. Phys.",
+      volume         = "52",
+      year           = "1988",
+      pages          = "479-487",
+      doi            = "10.1007/BF01016429",
+      reportNumber   = "CBPF-NF-062-87",
+      SLACcitation   = "%%CITATION = JSTPB,52,479;%%"
+}
+
+@Article{Physio_EEG,
+author="Schalk, G.
+and McFarland, D.J.
+and Hinterberger, T.
+and Birbaumer, N.
+and Wolpaw, J.R.",
+title={BCI2000: A General-Purpose Brain-Computer Interface (BCI) System},
+journal="IEEE Transactions on Biomedical Engineering",
+volume="51",
+number="6",
+pages="1034--1043",
+year={2004}
+}
+
+@Article{Physio_EEG_2,
+author="Goldberger, AL.
+and Amaral, LAN
+and Glass, L
+and Hausdorff, JM
+and Ivanov, PCh
+and Mark, RG
+and Mietus, JE
+and Moody GB
+and Peng, C-K,
+and Stanley, HE",
+title={PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals},
+journal="Circulation",
+volume="101 ",
+number="23",
+pages="e215-e220",
+year={2000}
+}
+
+@article{montroll1983maximum,
+  title={Maximum entropy formalism, fractals, scaling phenomena, and 1/f noise: a tale of tails},
+  author={Montroll, E. and Shlesinger, M.},
+  journal={Journal of Statistical Physics},
+  year={1983},
+  publisher={Springer}
+}
+
+@article{shlesinger1993strange,
+  title={Strange kinetics},
+  author={Shlesinger, M. and Zaslavsky, G. and Klafter, J.},
+  journal={Nature},
+  volume={363},
+  number={6424},
+  pages={31--37},
+  year={1993}
+}
+@inproceedings{xue2016spatio,
+  title={A spatio-temporal fractal model for a CPS approach to brain-machine-body interfaces},
+  author={Xue, Y. and Rodriguez, S. and Bogdan, P.},
+  booktitle={Design, Automation \& Test in Europe Conference \& Exhibition (DATE), 2016},
+  pages={642--647},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{mehta2009q,
+  title={Q-learning and Pontryagin's minimum principle},
+  author={Mehta, P. and Meyn, S.},
+  booktitle={Decision and Control, 2009 held jointly with the 2009 28th Chinese Control Conference. CDC/CCC 2009. Proc. of the 48th IEEE Conference on},
+  year={2009},
+  organization={IEEE}
+}
+@article{bousseljot1995nutzung,
+  title={Nutzung der EKG-Signaldatenbank CARDIODAT der PTB {\"u}ber das Internet},
+  author={Bousseljot, R. and Kreiseler, D. and Schnabel, A.},
+  journal={Biomedizinische Technik/Biomedical Engineering},
+  volume={40},
+  number={s1},
+  pages={317--318},
+  year={1995}
+}
+
+@inproceedings{xue2016minimum,
+  title={Minimum number of sensors to ensure observability of physiological systems: A case study},
+  author={Xue, Y, and Pequito, S. and Coelho, J. and Bogdan, P. and Pappas, G.},
+  booktitle={Communication, Control, and Computing (Allerton), 2016 54th Annual Allerton Conference on},
+  pages={1181--1188},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{bogdan2015mathematical,
+  title={Mathematical modeling and control of multifractal workloads for data-center-on-a-chip optimization},
+  author={Bogdan, P.},
+  booktitle={Proceedings of the 9th International Symposium on Networks-on-Chip},
+  pages={21},
+  year={2015},
+  organization={ACM}
+}
+
+@incollection{bassingthwaighte1994properties,
+  title={Properties of fractal phenomena in space and time},
+  author={Bassingthwaighte, J. and Liebovitch, L. and West, B.},
+  booktitle={Fractal physiology},
+  year={1994},
+  publisher={Springer}
+}
+
+@book{west2012fractal,
+  title={Fractal physiology and chaos in medicine},
+  author={West, B.},
+  year={2012},
+  publisher={World Scientific}
+}
+@book{mainardi2010fractional,
+  title={Fractional calculus and waves in linear viscoelasticity: an introduction to mathematical models},
+  author={Mainardi, F.},
+  year={2010},
+  publisher={World Scientific}
+}
+
+@article{rubin2005causal,
+  title={Causal inference using potential outcomes: Design, modeling, decisions},
+  author={Rubin, D.},
+  journal={Journal of the American Statistical Association},
+  volume={100},
+  year={2005}
+}
+
+@article{svenkeson2016spectral,
+  title={Spectral decomposition of nonlinear systems with memory},
+  author={Svenkeson, A. and Glaz, B. and Stanton, S. and West, B.},
+  journal={Physical Review E},
+  volume={93},
+  number={2},
+  year={2016},
+  publisher={APS}
+}
+
+%-------------------------------
+%    DATE References
+%-------------------------------
+
+
+
+
+
+
+
+
+
+

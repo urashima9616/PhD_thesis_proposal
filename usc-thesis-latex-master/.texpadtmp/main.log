@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.25)  5 APR 2017 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.25)  5 APR 2017 15:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -462,33 +462,61 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (./Introduction.tex
 Chapter 1.
+
+Package natbib Warning: Citation `zanella2014internet' on page 1 undefined on input line 6.
+
 [1
 
 
 
-] [2]) [3]
+]
+
+Package natbib Warning: Citation `stankovic2014research' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `pajic2015attack' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `fawzi2014secure' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `clark2016submodularity' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `bogdan2015cyber' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `bogdan2015cyber_2' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `ghorbani2013cyber' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `xue2016spatio' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `kumar2013mobile' on page 2 undefined on input line 8.
+
+[2] [3] [4]) [5]
 Chapter 2.
-[4
+[6
 
 
 ]
 Chapter 3.
-(/Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.bbl [5
-
-]
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-) [6
+(/Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.bbl) [7
 
 ]
 Appendix A.
-[7
+[8
 
 ]
 Appendix B.
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-[8
+[9
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
@@ -500,18 +528,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 7225 strings out of 493089
- 105705 string characters out of 6134842
+ 7235 strings out of 493089
+ 105883 string characters out of 6134842
  189669 words of memory out of 5000000
- 10521 multiletter control sequences out of 15000+600000
- 31962 words of font info for 37 fonts, out of 8000000 for 9000
+ 10530 multiletter control sequences out of 15000+600000
+ 36224 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,26p,1450b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on /Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.pdf (13 pages, 93224 bytes).
+ 42i,6n,26p,1867b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on /Users/xueyuankun/Dropbox/Github/PhD_thesis_proposal/usc-thesis-latex-master/.texpadtmp/main.pdf (14 pages, 114485 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 132 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
